@@ -1,0 +1,253 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Pratham Datta | AI/ML Engineer</title>
+<meta name="description" content="Pratham Datta, B.Tech CSE (AI & ML) student at RV University, Bengaluru. Projects in healthcare AI, document processing, computer vision and full-stack development.">
+<style>
+  :root {
+    --bg: #fafaf8;
+    --surface: #ffffff;
+    --text: #1c1c1a;
+    --muted: #63635e;
+    --border: #e4e3de;
+    --accent: #1f5fbf;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #121214;
+      --surface: #1b1b1f;
+      --text: #ececea;
+      --muted: #9a9a94;
+      --border: #2b2b30;
+      --accent: #6aa3ff;
+    }
+  }
+  * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font: 16px/1.65 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  }
+  a { color: var(--accent); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  .wrap { max-width: 860px; margin: 0 auto; padding: 0 20px; }
+  header.top { border-bottom: 1px solid var(--border); }
+  nav { display: flex; gap: 20px; padding: 16px 0; font-size: 15px; flex-wrap: wrap; }
+  nav a { color: var(--muted); }
+  nav a:hover { color: var(--text); text-decoration: none; }
+  .hero { padding: 64px 0 40px; }
+  .hero h1 { font-size: clamp(32px, 6vw, 48px); line-height: 1.15; margin: 0 0 8px; }
+  .hero .role { font-size: 20px; color: var(--muted); margin: 0 0 20px; }
+  .hero p.lead { max-width: 640px; margin: 0 0 24px; }
+  .links { display: flex; gap: 12px; flex-wrap: wrap; }
+  .btn {
+    display: inline-block; padding: 9px 18px; border-radius: 8px;
+    border: 1px solid var(--border); background: var(--surface); color: var(--text);
+    font-size: 15px;
+  }
+  .btn:hover { border-color: var(--accent); text-decoration: none; }
+  .btn.primary { background: var(--accent); border-color: var(--accent); color: #fff; }
+  section { padding: 40px 0; border-top: 1px solid var(--border); }
+  h2 { font-size: 24px; margin: 0 0 24px; }
+  .grid { display: grid; gap: 16px; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); }
+  .card {
+    background: var(--surface); border: 1px solid var(--border);
+    border-radius: 12px; padding: 20px;
+  }
+  .card h3 { font-size: 17px; margin: 0 0 8px; }
+  .card p { margin: 0; color: var(--muted); font-size: 15px; }
+  .tags { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 14px; }
+  .tag {
+    font-size: 12px; padding: 2px 9px; border-radius: 99px;
+    border: 1px solid var(--border); color: var(--muted);
+  }
+  .job { margin-bottom: 28px; }
+  .job h3 { font-size: 17px; margin: 0; }
+  .job .meta { color: var(--muted); font-size: 14px; margin: 2px 0 8px; }
+  .job ul { margin: 0; padding-left: 20px; }
+  .job li { margin-bottom: 4px; }
+  .skills dt { font-weight: 600; margin-top: 14px; }
+  .skills dd { margin: 2px 0 0; color: var(--muted); }
+  footer { padding: 32px 0 48px; color: var(--muted); font-size: 14px; border-top: 1px solid var(--border); }
+</style>
+</head>
+<body>
+
+<header class="top">
+  <div class="wrap">
+    <nav>
+      <a href="#projects">Projects</a>
+      <a href="#experience">Experience</a>
+      <a href="#skills">Skills</a>
+      <a href="#education">Education</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main class="wrap">
+
+  <div class="hero">
+    <h1>Pratham Datta</h1>
+    <p class="role">Computer Science student · AI &amp; Machine Learning</p>
+    <p class="lead">
+      B.Tech student at RV University, Bengaluru. I build AI-driven healthcare and
+      document-processing systems, machine-learning solutions and full-stack applications,
+      with some exposure to scientific computing and simulation. I've also worked in startups
+      across AI/ML, product development and business development.
+    </p>
+    <div class="links">
+      <a class="btn primary" href="mailto:prathamdatta04@gmail.com">Email me</a>
+      <a class="btn" href="https://github.com/PrathamDatta">GitHub</a>
+      <!-- <a class="btn" href="Pratham-Datta-Resume.pdf">Resume (PDF)</a> -->
+    </div>
+  </div>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="grid">
+
+      <article class="card">
+        <h3>Smart Claims</h3>
+        <p>AI-powered health insurance claims system. Reads medical bills and policy documents with OCR, extracts structured data, and maps claims to policy conditions using retrieval-based matching, rule-based validation and anomaly detection.</p>
+        <div class="tags"><span class="tag">OCR</span><span class="tag">RAG</span><span class="tag">FAISS</span><span class="tag">Python</span></div>
+      </article>
+
+      <article class="card">
+        <h3>Digital BOE &amp; Billing Platform</h3>
+        <p>Full-stack platform for digital bill and financial document processing, with multi-company and department-level access so workflows stay compartmentalized. Covered frontend, backend, database design, authentication and deployment.</p>
+        <div class="tags"><span class="tag">React</span><span class="tag">Node.js</span><span class="tag">Express</span><span class="tag">PostgreSQL</span></div>
+      </article>
+
+      <article class="card">
+        <h3>AI-Based Attendance App</h3>
+        <p>Built independently. Processes group photographs, identifies individuals with computer vision and ML, and generates attendance records automatically.</p>
+        <div class="tags"><span class="tag">Computer Vision</span><span class="tag">OpenCV</span><span class="tag">Python</span></div>
+      </article>
+
+      <article class="card">
+        <h3>Patient Vital-Sign Early Warning</h3>
+        <p>Machine-learning system that analyzes patient vital-sign data with predictive modeling to flag potential health risks automatically.</p>
+        <div class="tags"><span class="tag">Predictive Modeling</span><span class="tag">Scikit-learn</span></div>
+      </article>
+
+      <article class="card">
+        <h3>Digital Patient Health Twin</h3>
+        <p>Maintains a longitudinal record of a patient's conditions and history, and applies risk-analysis logic to surface medication-related and disease-related risks.</p>
+        <div class="tags"><span class="tag">Healthcare</span><span class="tag">Risk Analysis</span></div>
+      </article>
+
+      <article class="card">
+        <h3>Medical Imaging: Testicular Cancer</h3>
+        <p>Deep-learning project classifying testicular cancer from medical images, using image preprocessing and CNN-based techniques to find relevant patterns.</p>
+        <div class="tags"><span class="tag">CNN</span><span class="tag">TensorFlow</span><span class="tag">Keras</span></div>
+      </article>
+
+      <article class="card">
+        <h3>Protein Molecular Dynamics</h3>
+        <p>Ongoing molecular dynamics simulations of protein systems with GROMACS, analyzing trajectories and molecular behavior to study protein dynamics.</p>
+        <div class="tags"><span class="tag">GROMACS</span><span class="tag">Simulation</span></div>
+      </article>
+
+    </div>
+  </section>
+
+  <section id="experience">
+    <h2>Experience</h2>
+
+    <div class="job">
+      <h3>Chief Marketing Officer · Raspera</h3>
+      <div class="meta">Feb 2025 – Aug 2026 · Bengaluru</div>
+      <ul>
+        <li>Ran B2B outreach and secured opportunities with organizations to demo products and gather real-world market feedback.</li>
+        <li>Coordinated product demonstrations and stakeholder engagement for market research and validation.</li>
+        <li>Worked with the founding team across marketing, product strategy and business development.</li>
+      </ul>
+    </div>
+
+    <div class="job">
+      <h3>Intern · Adinet Infosystems</h3>
+      <div class="meta">Summer 2024 – Summer 2026</div>
+      <ul>
+        <li>Upgraded client WordPress websites from older to newer versions.</li>
+        <li>Designed and built new web pages for client sites.</li>
+        <li>Delivered complete client projects end to end (client details confidential).</li>
+        <li>Set up and maintained CI/CD pipelines with GitHub Actions for client projects.</li>
+      </ul>
+    </div>
+
+    <div class="job">
+      <h3>Product &amp; AI/ML Intern · ZANS</h3>
+      <div class="meta">Jun 2025 – Jul 2025 · Bengaluru</div>
+      <ul>
+        <li>Contributed to product development across AI/ML, product design, outreach and sales.</li>
+        <li>Applied machine-learning and data-driven approaches to practical product tasks.</li>
+        <li>Collaborated across technical and business functions in an early-stage startup.</li>
+      </ul>
+    </div>
+
+    <div class="job">
+      <h3>NSS Volunteer · National Service Scheme</h3>
+      <div class="meta">Aug 2024 – Aug 2026 · Bengaluru</div>
+      <ul>
+        <li>Took part in environmental and community-service initiatives, including a plantation drive near Nandi Hills with the Indian Armed Forces.</li>
+        <li>Volunteered with PRANI Animal Rescue Centre, helping build a new crow enclosure and maintain animal enclosures.</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <dl class="skills">
+      <dt>Languages</dt>
+      <dd>Python, Java, JavaScript</dd>
+      <dt>ML / AI</dt>
+      <dd>Machine Learning, Deep Learning, CNNs, NLP, Computer Vision, RAG, Predictive Modeling, OCR</dd>
+      <dt>Libraries &amp; tools</dt>
+      <dd>Scikit-learn, TensorFlow, Keras, OpenCV, FAISS</dd>
+      <dt>Web &amp; data</dt>
+      <dd>React, Node.js, Express.js, PostgreSQL, WordPress, PHP</dd>
+      <dt>Scientific computing</dt>
+      <dd>GROMACS, Molecular Dynamics, NVIDIA Isaac Sim</dd>
+      <dt>DevOps</dt>
+      <dd>CI/CD, GitHub Actions</dd>
+      <dt>Cloud</dt>
+      <dd>Google Cloud / Cloud Skills Boost</dd>
+    </dl>
+  </section>
+
+  <section id="education">
+    <h2>Education</h2>
+    <div class="job">
+      <h3>B.Tech, Computer Science Engineering · RV University</h3>
+      <div class="meta">Aug 2024 – Aug 2028 · Bengaluru</div>
+      <ul>
+        <li>Major: Artificial Intelligence &amp; Machine Learning. Minor: Innovation, Entrepreneurship &amp; Product Development.</li>
+        <li>Coursework: Machine Learning, AI, Data Structures &amp; Algorithms, Computer Networks, Computer Vision.</li>
+        <li>Activities: Google Developer Groups (Outreach), NSS (2 years).</li>
+        <li>Certificate: Google Developer Groups Study Jams, 16/16 labs completed. Machine Learning Workshop, Dec 2024.</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Open to internships and entry-level roles. The best way to reach me is by email.</p>
+    <div class="links">
+      <a class="btn primary" href="mailto:prathamdatta04@gmail.com">prathamdatta04@gmail.com</a>
+      <a class="btn" href="https://github.com/PrathamDatta">github.com/PrathamDatta</a>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <div class="wrap">© 2026 Pratham Datta · Bengaluru, India</div>
+</footer>
+
+</body>
+</html>
